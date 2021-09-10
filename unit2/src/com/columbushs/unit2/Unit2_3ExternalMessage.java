@@ -1,11 +1,11 @@
 package com.columbushs.unit2;
 
-public class Unit2_3External {
+public class Unit2_3ExternalMessage {
 	
 	public String messageName;
 	public String writerName;
 	
-	public Unit2_3External(String name, String writer) {
+	public Unit2_3ExternalMessage(String name, String writer) {
 		messageName = name;
 		writerName = writer;
 	}
