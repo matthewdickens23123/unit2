@@ -3,9 +3,9 @@ package com.columbushs.unit2;
 public class Unit2_1External {
 	
 	//constructors
-	public String constName;
-	public int constAge;
-	public double constDecimal;
+	String constName;
+	int constAge;
+	double constDecimal;
 //	private String constName;
 //	private int constAge;
 //	private double constDecimal;
