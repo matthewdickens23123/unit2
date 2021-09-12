@@ -17,15 +17,20 @@ public class Unit2Main {
 //		writingMessage.changeWriterToSteve();
 //		
 //		writingMessage.writeMessage();
+				
+//		Unit2_4ExternalFrog	frogInstance = new Unit2_4ExternalFrog();
+//		frogInstance.frog();
+//		frogInstance.frog(13);
+//		frogInstance.frog("left", 3);
 		
-//		Unit2_5ExternalAverages averages = new Unit2_5ExternalAverages();
-//		double average = averages.averageClac(3,2.3,5);
-//		System.out.println(average);
-		
-		Unit2_4ExternalFrog	frogInstance = new Unit2_4ExternalFrog();
-		frogInstance.frog();
-		frogInstance.frog(13);
-		frogInstance.frog("left", 3);
+		Unit2_5ExternalAverages averages = new Unit2_5ExternalAverages();
+	    //Have to create a variable to store the return
+		//The variable you create to store your return must be the same
+		//type as the return
+		double average = averages.averageClac(3,13,5);
+		//if you put in ints they will be cast as double since 
+		//the method accepts doubles
+		System.out.println(average);
 		
 	}
 
