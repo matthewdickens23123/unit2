@@ -33,11 +33,15 @@ public class Unit2Main {
 //		System.out.println(average);
 		
 		
-		Unit2_6ExternalStrings stringStuff = new Unit2_6ExternalStrings();
+		//Unit2_6ExternalStrings stringStuff = new Unit2_6ExternalStrings();
 		//stringStuff.litteralsAndObjectStrings();
 		//stringStuff.concatinatingStrings();
-		stringStuff.escapeSequences();
+		//stringStuff.escapeSequences();
 		
+		Unit2_7StringMethods moreStringStuff = new Unit2_7StringMethods();
+		//moreStringStuff.indexingTest();
+		//moreStringStuff.substringTesting();
+		moreStringStuff.lengthAndComparison();
 	}
 
 }

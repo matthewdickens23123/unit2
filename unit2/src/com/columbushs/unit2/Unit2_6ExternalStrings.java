@@ -21,7 +21,6 @@ public class Unit2_6ExternalStrings {
 		//+= joins and redefines
 		String litteral1 = "Bob Smith";
 		String objectInstance1 = new String("John Weston");
-		String objectInstance2 = new String(litteral1);
 		int bobsAge = 57;
 		int johnsAge = 17;
 		//here we can add the int and it is recast as a string
