@@ -34,9 +34,9 @@ public class Unit2Main {
 		
 		
 		Unit2_6ExternalStrings stringStuff = new Unit2_6ExternalStrings();
-		stringStuff.litteralsAndObjectStrings();
-		stringStuff.concatinatingStrings();
-		
+		//stringStuff.litteralsAndObjectStrings();
+		//stringStuff.concatinatingStrings();
+		stringStuff.escapeSequences();
 		
 	}
 

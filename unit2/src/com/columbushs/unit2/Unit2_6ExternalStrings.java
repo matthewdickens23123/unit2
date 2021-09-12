@@ -33,4 +33,27 @@ public class Unit2_6ExternalStrings {
 		
 	}
 	
+	public void escapeSequences() {
+		
+		// escape sequences start with a backslash -> \
+		// \" prints a double quote
+		// \\ prints backslash
+		// \n inserts a new line. like System.out.println
+		
+		String litteral1 = "Bob Smith";
+		String objectInstance1 = new String("John Weston");
+		//If I want to print something out in double quotes
+		System.out.println("\""+litteral1+"\"");
+		
+		//If I want to print something out in backslashes
+		System.out.println("\\"+litteral1+"\\");
+		
+		//If I want to add more lines besides println
+		System.out.println(objectInstance1+"\n"+"\n"+"\n"+"\n");
+		System.out.println(litteral1);
+		
+		
+		
+	}
+	
 }
