@@ -23,29 +23,32 @@ public class Unit2Main {
 //		frogInstance.frog(13);
 //		frogInstance.frog("left", 3);
 		
-//		Unit2_5ExternalAverages averages = new Unit2_5ExternalAverages();
-//	    //Have to create a variable to store the return
-//		//The variable you create to store your return must be the same
-//		//type as the return
+		Unit2_5ExternalAverages averages = new Unit2_5ExternalAverages();
+	    //Have to create a variable to store the return
+		//The variable you create to store your return must be the same
+		//type as the return
 //		double average = averages.averageClac(3,13,5);
-//		//if you put in ints they will be cast as double since 
-//		//the method accepts doubles
+		//if you put in ints they will be cast as double since 
+		//the method accepts doubles
 //		System.out.println(average);
 		
 		
-		//Unit2_6ExternalStrings stringStuff = new Unit2_6ExternalStrings();
+		Unit2_6ExternalStrings stringStuff = new Unit2_6ExternalStrings();
 		//stringStuff.litteralsAndObjectStrings();
 		//stringStuff.concatinatingStrings();
 		//stringStuff.escapeSequences();
 		
-		//Unit2_7StringMethods moreStringStuff = new Unit2_7StringMethods();
+		Unit2_7StringMethods moreStringStuff = new Unit2_7StringMethods();
 		//moreStringStuff.indexingTest();
 		//moreStringStuff.substringTesting();
 		//moreStringStuff.lengthAndComparison();
 		
 		Unit2_8ExternalWrapperClasses wrappers = new Unit2_8ExternalWrapperClasses();
 		//wrappers.integerClass();
-		wrappers.doubleClass();
+		//wrappers.doubleClass();
+		
+		Unit2_9MathClass mathStuff = new Unit2_9MathClass();
+		mathStuff.mathClassTesting();
 		
 		
 		
