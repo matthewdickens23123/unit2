@@ -38,10 +38,17 @@ public class Unit2Main {
 		//stringStuff.concatinatingStrings();
 		//stringStuff.escapeSequences();
 		
-		Unit2_7StringMethods moreStringStuff = new Unit2_7StringMethods();
+		//Unit2_7StringMethods moreStringStuff = new Unit2_7StringMethods();
 		//moreStringStuff.indexingTest();
 		//moreStringStuff.substringTesting();
-		moreStringStuff.lengthAndComparison();
+		//moreStringStuff.lengthAndComparison();
+		
+		Unit2_8ExternalWrapperClasses wrappers = new Unit2_8ExternalWrapperClasses();
+		//wrappers.integerClass();
+		wrappers.doubleClass();
+		
+		
+		
 	}
 
 }
