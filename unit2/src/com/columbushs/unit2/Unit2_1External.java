@@ -11,10 +11,8 @@ public class Unit2_1External {
 //	private double constDecimal;
 
 
-	public Unit2_1External(String cn, int ca, double cd){
-	  constName = cn;
-	  constAge = ca;
-	  constDecimal = cd;
+	public Unit2_1External(String constName, int constAge, double constDecimal){
+	  
 	  System.out.println("Object Created with constructor 1 Name, Age, miles");
 	}
 

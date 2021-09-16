@@ -20,11 +20,12 @@ public class Unit2_6ExternalStrings {
 		// + joins, 
 		//+= joins and redefines
 		String litteral1 = "Bob Smith";
-		String objectInstance1 = new String("John Weston");
+		String objectInstance1 = new String("John Weston ");
 		int bobsAge = 57;
 		int johnsAge = 17;
 		//here we can add the int and it is recast as a string
 		String bobInfo = litteral1 + " is " + bobsAge;
+		//objectInstance1 = objectInstance1+johnsAge;
 		objectInstance1 += johnsAge;
 		
 		System.out.println(bobInfo);

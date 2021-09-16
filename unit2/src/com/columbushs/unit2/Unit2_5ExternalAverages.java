@@ -19,14 +19,14 @@ public class Unit2_5ExternalAverages {
 		
 	}
 	
-//	public double averageClac(double... b) {
-//		int size = b.length;
-//		double sum = 0;
-//		for (int i=0; i<size; i++) {
-//			sum = sum + b[i];
-//		}
-//		
-//		double average = sum/b.length;
-//		return average;
-//	}
+	public double averageClac(double... b) {
+		int size = b.length;
+		double sum = 0;
+		for (int i=0; i<size; i++) {
+			sum = sum + b[i];
+		}
+		
+		double average = sum/b.length;
+		return average;
+	}
 }
