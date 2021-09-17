@@ -49,7 +49,7 @@ public class Unit2_6ExternalStrings {
 		System.out.println("\\"+litteral1+"\\");
 		
 		//If I want to add more lines besides println
-		System.out.println(objectInstance1+"\n"+"\n"+"\n"+"\n");
+		System.out.println(objectInstance1+"\n"+"\n"+"\n");
 		System.out.println(litteral1);
 		
 		
